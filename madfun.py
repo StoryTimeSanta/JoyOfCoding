@@ -1,7 +1,7 @@
-# Mad Fun
+# Working with numeric functions
 # Richard Hudson
 
-import math
+# import math sqrt function
 from math import sqrt
 
 # Get a decimal number from the user
