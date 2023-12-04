@@ -13,13 +13,13 @@
 # satURday - Wake up at 7 am
 # SunDAY - Wake up at 7 am
 
-DoW = input("What day is it?")
-DoWT = DoW.title() # This line is the fix for title method
+DoW = input("What day is it?").title()
+# DoWT = DoW.title() # This line is the fix for title method
 # DoW = "Monday"
 
-if DoWT == "Saturday": # adjusted for new DoWT variable
+if DoW == "Saturday":
     print("Wake up at 9 am")
-elif DoWT == "Sunday": # adjusted for new DoWT variable
+elif DoW == "Sunday":
     print("Wake up at 10 am")
 else:
     print("Wake up at 7 am")
