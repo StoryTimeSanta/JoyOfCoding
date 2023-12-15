@@ -13,8 +13,10 @@ def pyramid(char, number):
     for i in range(1, number):
         print(char * i)
 
+def main():
+    pyramid("*",3)
+    pyramid("+", 6)
+    pyramid("X", 11)
 
-pyramid("*",3)
-pyramid("+", 6)
-pyramid("X", 11)
 
+main()
