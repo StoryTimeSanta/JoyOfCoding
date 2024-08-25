@@ -28,5 +28,5 @@ for i in "CSCI 150":
 print()
 
 print("Question 3.")
-for i in range (1, 11, 1):
+for i in range (1, 11):
     print(i)

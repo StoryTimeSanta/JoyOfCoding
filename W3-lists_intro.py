@@ -31,10 +31,10 @@ print(sum(numbers))  # Will print 75
 
 
 #  In the code above, identify the following:
-    #  1. Loop variables: num, letter, i
-    #  2. List initializations: my_list =, numbers =
-    #  3. Function definitions: none
-    #  4. Function calls: print, string count, list.append, eval, input, sum
-    #  5. Conditions: if num.count("o") > 0:
-    #  6. Boolean Expressions: “green” in phrase, “Green” in phrase, “two” in my_list, num.count(“o”) > 0
-    #  7. String Literals: everything in ""
+#  1. Loop variables: num, letter, i
+#  2. List initializations: my_list =, numbers =
+#  3. Function definitions: none
+#  4. Function calls: print, string count, list.append, eval, input, sum
+#  5. Conditions: if num.count("o") > 0:
+#  6. Boolean Expressions: “green” in phrase, “Green” in phrase, “two” in my_list, num.count(“o”) > 0
+#  7. String Literals: everything in ""
