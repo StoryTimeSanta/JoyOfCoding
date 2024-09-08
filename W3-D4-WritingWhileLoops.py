@@ -1,17 +1,43 @@
 # Richard Hudson
 # Assignment Requirements
 
-# 3. Create a program that allows the user to enter in a list of numbers,
-# prints them out in sorted order, and prints the sum and average of
-# the numbers. Prompt the user to continue entering numbers, and
-# enter the number ‘0’ when finished
+# Write python code to print the following using while loops
+# A 1 2 3 4 5
 
-list1 = []
-prompt = "Please enter a number ('0' to finish)"
-response = eval(input(prompt))
-while response != 0:
-    list1.append(response)
-    response = eval(input(prompt))
-print(sorted(list1))
-print(sum(list1))
-print(sum(list1) / len(list1))
+i = 1
+while i < 6:
+    print(i)
+    i += 1
+print()
+
+# B 2 5 8 11
+i = 2
+while i < 12:
+    print(i)
+    i += 3
+print()
+
+# C -10 -8 -6 -4 -2 0
+
+i = -10
+while i < 1:
+    print(i)
+    i += 2
+print()
+
+# D **** **** **** ****
+
+i = 1
+while i < 5:
+    print('****')
+    i += 1
+print()
+
+# 2. Write a while loop that prints the letters in “CSCI 150” on separate lines.
+
+string = "CSCI 150"
+s = 0
+while i < len(string):
+    print(string[s])
+    s += 1
+
